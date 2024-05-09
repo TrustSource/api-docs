@@ -1,4 +1,4 @@
-# SOLUTION NAME
+# TrustSource API documentation
 
 ## Changelog
 
