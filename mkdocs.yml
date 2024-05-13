@@ -1,12 +1,12 @@
 
 # Project
-site_name: Shared Security Responsibility Model
-site_url: https://trustsource.github.io/SSRM
+site_name: API documentation
+site_url: https://trustsource.github.io/api-docs
 site_description: >-
-  Provides a static site that introduces the TrustSource Guide to the Shared Security Repsonsibility Model for the TrustSource Service.
+  Provides a static site that introduces the TrustSource Guide to the API for the TrustSource Service.
 
 # Repository
-repo_url: https://github.com/trustsource/SSRM
+repo_url: https://github.com/trustsource/api-docs
 edit_uri: ""    # prevents the edit button to link into URL
 
 # Copyright
