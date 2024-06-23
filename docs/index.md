@@ -7,12 +7,12 @@ Feel free to reach out anytime, to clarify questions through mail under ```suppo
 
 
 ## Introduction
-TrustSource helps in providing Security and Compliance along the Software Supply Chain. Since large parts of these tasks, if not already, will be automated, a capable API is an important success factor to successfully secuirng the Software Supply Chain. At TrustSource we focus on leveraging our customer's efficiency through optimal integration. We provide a collection of servcies and tools to simplify operatins, to keep their backs free from the hazzle and insufficiencies comprising the tooling landscape around open source compliance and security. trustSource has been assembled over years to support a fully managed solution coping with all aspects of Software Supply Chain Security.   
+TrustSource helps in providing Security and Compliance along the Software Supply Chain. Since large parts of these tasks, if not already, will be automated, a capable API is an important success factor to successfully securing the Software Supply Chain. At TrustSource we focus on leveraging our customer's efficiency through optimal integration. We provide a collection of servcies and tools to simplify operations, to keep their back free from the hazzle and insufficiencies comprising the tooling landscape around open source compliance and security. TrustSource has been assembled over years to support a fully managed solution coping with all aspects of Software Supply Chain Security. 
 
-
+However, if you feel like something is missing or should be integrated better feel free to participate or reach out to us, so that we may explore on how to bridge the gap.
 
 ## Scope
-This document addresses the use of TrustSource API in general and describes the underlying concepts and ideas. It will address the most recent version, which currently is v2. However, the deltas to v1 will be outlined where new functionality appears. Te learn more how to migrate, see the section on **Migrating APIv1 to APIv2**.
+This document addresses the use of TrustSource API in general and describes underlying concepts and ideas. It will address the most recent version, which currently is v2. However, the deltas to v1 will be outlined where new functionality appears. Te learn more how to migrate, see the section on **Migrating APIv1 to APIv2**.
 
 
 
@@ -58,6 +58,18 @@ You may focus on the introductions of chapters 3, 4, 5 and 6. The details you ma
 
 
 
+## Migrating APIv1 to APIv2
+
+The APIv2 has been released during December 2024. We recommend to make use of APIv2 as soon as possible. It is more secure and reliable than the v1. 
+
+Starting **June 2024**, we will publish a deprecation notification as part of all API replies to v1. 
+
+By **September 30th, 2024** the API v1 will start returning 410 only. In addition, we will omit the need for the /v2 parameter to reach the api. However, if you use it, you will be able to continue doing so. 
+
+To migrate, you will just need to point your requests to the URL [https://api.trustsource.io/v2/](https://api.trustsource.io/v2/) instead the the former https://app.trustsource.io/api/v1/ base url. ***All functionality is fully backward compatible.*** To learn about new functionality and experiment/play with the functions, visit the API documentation inside [TrustSource Service](https://app.trustsource.io/apidoc-latest).
+
+
+
 ## Further Sources of Knowledge
 
 You should be aware of the different sources you may tap to learn about TrustSource:
@@ -72,21 +84,9 @@ You should be aware of the different sources you may tap to learn about TrustSou
 
 
 
-## Migrating APIv1 to APIv2
-
-The APIv2 has been released during December 2024. We recommend to make use of APIv2 as soon as possible. It is more secure and reliable than the v1. 
-
-Starting **June 2024**, we will publish a deprecation notification as part of all API replies to v1. 
-
-By **September 30th, 2024**  the API v1 will start returning 410 only. In addition, we will omit the need for the /v2 parameter to reach the api. However, if you use it, you will be able to continue doing so. 
-
-To migrate, you will just need to point your requests towards the URL [https://api.trustsource.io/v2/](https://api.trustsource.io/v2/). To learn about new functionality and experiment/play with the functions, visit the API documentation inside [TrustSource Service](https://app.trustsource.io/apidoc-latest).
-
-
-
 ## License
 
-This documentation is provided under CC-BY-SA-4.0. You may clone or fork this repository and create you own Shared Responsibility Model (SSRM) based on these documents. But please make sure to remove all references to TrustSource and EACG except an attribution notice. EACG as well as TrustSource and the corresponding logos are protected Trademarks and should not be used without a written approval by any third party.
+This documentation is provided under CC-BY-SA-4.0. You may clone or fork this repository and create you own documentation based on these documents. But please make sure to remove all references to TrustSource and EACG except an attribution notice. **EACG** as well as **TrustSource** and the corresponding logos are protected Trademarks and should not be used without a written approval by any third party.
 
 This documentation may change. We will notify changes through the systems management notification mailing list.
 

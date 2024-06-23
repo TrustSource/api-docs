@@ -1,4 +1,4 @@
-# TrustSource APIv2 - Structure
+# API-Structure
 
 To get a grip on APIv2 it is important to understand that TrustSource APIv2 comprises of different services. It is a basic REST API but also a comprehensive business API, allowin to initiate complex actions. You may manage a complete release through the API. Therfor APIv2 opens the platform services for external consumption. To not get lost, start tinking in the following categories:
 

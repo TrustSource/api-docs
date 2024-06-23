@@ -1,4 +1,4 @@
-# TrustSource APIv2 - Key Management
+# API Key Management
 
 To allow even larger organisations to handle API keys, we invested into a sound API key management. Users with the role **Account Admin**, **Compliance Manager** or **Project Manager** will find the API Key Management under **> ADMINSITRATION > Scanners & API Keys**.
 
