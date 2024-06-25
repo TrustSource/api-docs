@@ -55,3 +55,8 @@ This table gives an overview of which role is allowed to execute which actions.
 | > POST cveFind        | ![checked](/api-docs/assets/checked.png) | ![checked](/api-docs/assets/checked.png) | ![checked](/api-docs/assets/checked.png) | ![checked](/api-docs/assets/checked.png) | ![checked](/api-docs/assets/checked.png) | ![checked](/api-docs/assets/checked.png) | ![checked](/api-docs/assets/checked.png) | ![checked](/api-docs/assets/checked.png) |
 | > GET cwes            | ![checked](/api-docs/assets/checked.png) | ![checked](/api-docs/assets/checked.png) | ![checked](/api-docs/assets/checked.png) | ![checked](/api-docs/assets/checked.png) | ![checked](/api-docs/assets/checked.png) | ![checked](/api-docs/assets/checked.png) | ![checked](/api-docs/assets/checked.png) | ![checked](/api-docs/assets/checked.png) |
 
+Besides these we have a handful of *public* functions, which can be triggered by using the [Release keys](/api-docs/releasekeys). Actually they are not really public, you will require the Release key to access the associated information, but everybody using the key will be able to access all information. Currently we have three documents, that can be retrieved:
+
+- SBOM
+- Notice File
+- CSAF VEX

@@ -12,7 +12,7 @@ However, the new API comes with a strong analytics capability. You may see the u
 
 ## Individual Key Statistics
 
-Strating point for all analytics will be the API Key Management page under **> ADMINISTRATION > Scanners & API Keys > API Keys**. Behind each key you see a small diagram symbol ![checked](/api-docs/assets/checked.png). Clicking on the symbol will open a modal window displaying the use of the key during the current month.
+Strating point for all analytics will be the API Key Management page under **> ADMINISTRATION > Scanners & API Keys > API Keys**. Behind each key you see a small diagram symbol ![checked](/api-docs/assets/SymbolDiagram.jpg). Clicking on the symbol will open a modal window displaying the use of the key during the current month.
 
 ![diagram](/api-docs/assets/APIKeyModal.jpg)
 

@@ -2,7 +2,7 @@
 
 This **API documentation** addresses the recently released v2 of the TrustSource platform API.  
 
-Feel free to reach out anytime, to clarify questions through mail under ```support @ trustsource.io``` or contact your account representative.
+Feel free to reach out anytime, to clarify questions through mail under ```support @ trustsource.io``` or contact - in case you are a paying subscriber - your account representative.
 
 
 
@@ -22,9 +22,12 @@ This documentation is structured into six sections with differnt focus:
 
 1. This Introduction, which guides you through the idea and reading hints
 2. [Key Management](/api-docs/keymgmt) - Introduction to API keys and how to manage them 
-3. [API Analytics](/api-docs/analytics) - Gives you ideas on how to keep control over API usage
+3. [Roles](/roles) - This section gives an overview of the TrsutSource roles you may use to scope your keys. 
 4. [API Structure](/api-docs/structure) - Here you get insights on our data management and will learn what you may do to ensure integrity from your side
-5. [Use Cases](/api-docs/usecases) - Collection of use cases describing how to tackle specific obstacles that may appear when securing your Software Supply Chain 
+5. [API Analytics](/api-docs/analytics) - Gives you ideas on how to keep control over API usage
+6. [Use Cases](/api-docs/usecases) - Collection of use cases describing how to tackle specific obstacles that may appear when securing your Software Supply Chain 
+
+
 
 > [!IMPORTANT]
 >
@@ -36,23 +39,23 @@ This documentation is structured into six sections with differnt focus:
 
 If you are a new user and have endless time, we suggest to read everyting from beginning to start. But most likely you already denied the second condition and thus are seeking a way to reduce the time to achieve your goal. In this case follow one of the role-specific paths outlined here:
 
-- System Administrator / Operations 
+- **System Administrator / Operations**
 
-You should at least understand the [Key Management](/keymgmt.md). If you plan to distribute expenses across your users, [API Analytics](/analytics.md) will also be of value to you.
+You should at least understand the [Key Management](/api-docs/keymgmt). If you plan to distribute expenses across your users, [API Analytics](/api-docs/analytics) will also be of value to you.
 
-- Security Architect
+- **Security Architect**
 
-We suggest to gain an idea on the api key scopes and then dive into the use cases. 
+We suggest to gain an idea on the api [key scopes](/api-docs/keymgmt) and then dive into the use cases. 
 
-- Project or Product Manager
+- **Project or Product Manager**
 
-Be sure to get an idea of understand the [Key Management](/keymgmt.md).
+Be sure to get an idea of understand the [Key Management](/api-docs/keymgmt).
 
-- Compliance Manager
+- **Compliance Manager**
 
-Have a look into the  [API Structure](/structure.md) to gain an understanding of the options you will gain through the compliance API.
+Have a look into the  [API Structure](/api-docs/structure) to gain an understanding of the options you will gain through the compliance API.
 
-- CI/CD Operator / Developer
+- **CI/CD Operator / Developer**
 
 You may focus on the introductions of chapters 3, 4, 5 and 6. The details you may add upon demand.
 
