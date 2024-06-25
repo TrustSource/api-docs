@@ -20,11 +20,11 @@ This document addresses the use of TrustSource API in general and describes unde
 
 This documentation is structured into six sections with differnt focus:
 
-  1. This Introduction, which guides you through the idea and reading hints
-  2. [Key Management](/api-docs/keymgmt.md) - Introduction to API keys and how to manage them 
-  3. [API Analytics](/api-docs/analytics.md) - Gives you ideas on how to keep control over API usage
-  4. [API Structure](/api-docs/structure.md) - Here you get insights on our data management and will learn what you may do to ensure integrity from your side
-  5. [Use Cases](/api-docs/usecases.md) - Collection of use cases describing how to tackle specific obstacles that may appear when securing your Software Supply Chain 
+    1. This Introduction, which guides you through the idea and reading hints
+    2. [Key Management](/api-docs/keymgmt) - Introduction to API keys and how to manage them 
+    3. [API Analytics](/api-docs/analytics) - Gives you ideas on how to keep control over API usage
+    4. [API Structure](/api-docs/structure) - Here you get insights on our data management and will learn what you may do to ensure integrity from your side
+    5. [Use Cases](/api-docs/usecases) - Collection of use cases describing how to tackle specific obstacles that may appear when securing your Software Supply Chain 
 
 > [!IMPORTANT]
 >
