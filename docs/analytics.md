@@ -12,9 +12,9 @@ However, the new API comes with a strong analytics capability. You may see the u
 
 ## Individual Key Statistics
 
-Strating point for all analytics will be the API Key Management page under **> ADMINISTRATION > Scanners & API Keys > API Keys**. Behind each key you see a small diagram symbol <img src="/Users/janthielscher/dev/api-docs/docs/assets/SymbolDiagram.jpg" style="zoom:75%;" /> Clicking on the symbol will open a modal window displaying the use of the key during the current month.
+Strating point for all analytics will be the API Key Management page under **> ADMINISTRATION > Scanners & API Keys > API Keys**. Behind each key you see a small diagram symbol <img src="/api-docs/docs/assets/SymbolDiagram.jpg" style="zoom:75%;" /> Clicking on the symbol will open a modal window displaying the use of the key during the current month.
 
-![](/Users/janthielscher/dev/api-docs/docs/assets/APIKeyModal.jpg)
+![diagram](/api-docs/assets/APIKeyModal.jpg)
 
 It is possible to select different reporting periods. The green bars show the usage of the sleected key. The yellow background shows the remaining quota for the selected reporting period. 
 
