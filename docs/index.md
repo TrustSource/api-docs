@@ -9,7 +9,7 @@ Feel free to reach out anytime, to clarify questions through mail under ```suppo
 ## Introduction
 TrustSource helps in providing Security and Compliance along the Software Supply Chain. Since large parts of these tasks, if not already, will be automated, a capable API is an important success factor to successfully securing the Software Supply Chain. At TrustSource we focus on leveraging our customer's efficiency through optimal integration. We provide a collection of servcies and tools to simplify operations, to keep their back free from the hazzle and insufficiencies comprising the tooling landscape around open source compliance and security. TrustSource has been assembled over years to support a fully managed solution coping with all aspects of Software Supply Chain Security. 
 
-However, if you feel like something is missing or should be integrated better feel free to participate or reach out to us, so that we may explore on how to bridge the gap.
+However, if you feel like something is missing or should be integrated better, please do not hesitate to participate or reach out to us, so that we may explore on how to bridge the gap.
 
 ## Scope
 This document addresses the use of TrustSource API in general and describes underlying concepts and ideas. It will address the most recent version, which currently is v2. However, the deltas to v1 will be outlined where new functionality appears. Te learn more how to migrate, see the section on **Migrating APIv1 to APIv2**.
@@ -21,10 +21,10 @@ This document addresses the use of TrustSource API in general and describes unde
 This documentation is structured into six sections with differnt focus:
 
   1. This Introduction, which guides you through the idea and reading hints
-  2. [Key Management](/keymgmt.md) - Introduction to API keys and how to manage them 
-  3. [API Analytics](/analytics.md) - Gives you ideas on how to keep control over API usage
-  4. [API Structure](/structure.md) - Here you get insights on our data management and will learn what you may do to ensure integrity from your side
-  5. [Use Cases](/usecases.md) - Collection of use cases describing how to tackle specific obstacles that may appear when securing your Software Supply Chain 
+  2. [Key Management](/api-docs/keymgmt.md) - Introduction to API keys and how to manage them 
+  3. [API Analytics](/api-docs/analytics.md) - Gives you ideas on how to keep control over API usage
+  4. [API Structure](/api-docs/structure.md) - Here you get insights on our data management and will learn what you may do to ensure integrity from your side
+  5. [Use Cases](/api-docs/usecases.md) - Collection of use cases describing how to tackle specific obstacles that may appear when securing your Software Supply Chain 
 
 > [!IMPORTANT]
 >
@@ -62,7 +62,7 @@ You may focus on the introductions of chapters 3, 4, 5 and 6. The details you ma
 
 The APIv2 has been released during December 2024. We recommend to make use of APIv2 as soon as possible. It is more secure and reliable than the v1. 
 
-Starting **June 2024**, we will publish a deprecation notification as part of all API replies to v1. 
+Starting **June 2024**, we will publish a deprecation notification as part of all API replies to v1. however, to not impact the usage, information will only be displayed in the repsonse header. Thus it might not be easily detectable for automated integrations. 
 
 By **September 30th, 2024** the API v1 will start returning 410 only. In addition, we will omit the need for the /v2 parameter to reach the api. However, if you use it, you will be able to continue doing so. 
 
