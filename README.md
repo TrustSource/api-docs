@@ -5,7 +5,7 @@ This repo contains information about the TrustSource API v2. Beginning of 2024 T
 The documentation itself is continuously updated to keep pace with the change. However, it will carry a version number and older versions will be kept for later reference. To get an idea of the changes and updates a CHANGELOG is maintained.
 
 ## Further Information
-These pages are owned and maintained by [TrustSource](https://www.trustsource.io), repsectively [EACG GmbH](https://www.eacg.de).  
+These pages are owned and maintained by [TrustSource](https://www.trustsource.io), respectively [EACG GmbH](https://www.eacg.de).  
 
 ## Committer Agreements
 Given you want to share your experiences, we are happy to receive your pull request. However, for legal reasons we must ask you to grant us some rights so that we are allowed to publish and further make use of your intellectual creation. Thus, we ask you to publish contents under the most recent version of the [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en), which allows further usage by us for any pupose under the condition to retain your authorship. 
