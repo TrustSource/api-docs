@@ -11,9 +11,9 @@ At TrustSource we distinguish:
 
    These keys are designed to be associated with a particular release of a software product / project or module. The scope of this key type will be limited to retrieve information of a particular module version, that has been approved for release. Upon creation you associate the key with the released product of choice and this binding can't be removed anymore. The idea behind this sort of key is to allow you to publish the key together with your software, especially for devices without display, e.g. in form of a QR code, which then can be linked to display the information you want, e.g /VEX, /notice or /SBOM.
 
-Please choose **API Keys** for now and you will see a screen like show in the follwoing screenshot.
+Please choose **API Keys** for now and you will see a screen like shown in the following screenshot.
 
-![ApiKeyMgmt](/Users/janthielscher/dev/api-docs/docs/assets/ApiKeyMgmt.jpg)
+![ApiKeyMgmt](/api-docs/assets/ApiKeyMgmt.jpg)
 
 If you do not see a list, you might be the first entering this section. Then you will have to add your first key. In this screen you will have all functionality to craete, manage  and delete API keys. 
 
