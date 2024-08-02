@@ -85,6 +85,10 @@ You should be aware of the different sources you may tap to learn about TrustSou
 - If you are subscribed to TrustSource you also are eligible to may write an email to our support team at [support@trustsource.io](mailto:support@trustsource.io)
 - Direct contact: You will find our contact details, at our website under [www.trustsource.io/contact](!https://www.trustsource.io/contact)
 
+> [!NOTE]
+>
+> TrustSource will take care for the maintained scanners to be updated in time. Today (Aug, 2nd), the latest node client already makes use of APIv2. ts-scan will be available somewhere mid August, the maven-plugin will be available by end of August latest. For information of further scanners please refer to the corresponding repo.  
+
 
 
 ## License
