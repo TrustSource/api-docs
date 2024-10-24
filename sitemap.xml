@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://trustsource.github.io/api-docs/</loc>
+         <lastmod>2024-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://trustsource.github.io/api-docs/analytics/</loc>
+         <lastmod>2024-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://trustsource.github.io/api-docs/keymgmt/</loc>
+         <lastmod>2024-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://trustsource.github.io/api-docs/releasekeys/</loc>
+         <lastmod>2024-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://trustsource.github.io/api-docs/roles/</loc>
+         <lastmod>2024-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://trustsource.github.io/api-docs/structure/</loc>
+         <lastmod>2024-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://trustsource.github.io/api-docs/usecases/</loc>
+         <lastmod>2024-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://trustsource.github.io/api-docs/usecases/uc1/</loc>
+         <lastmod>2024-10-24</lastmod>
+    </url>
+</urlset>
