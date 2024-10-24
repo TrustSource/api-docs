@@ -22,4 +22,8 @@ grants access to our knowledge on compoenents. This is the aggregation of the kn
 
 allows to publish your achievements towards 3rd parties. This especially comprises required documents for particular releases such as NoticeFiles, SOUP lists or CSAF VEX documents or company information like FOSS Liason. Here we also offer functionality to verify the originality of documents.
 
+> [!IMPORTANT]
+>
+> **PLEASE NOTE:** The APIv2 has a file upload limit of 1MB. This has been a security decision to prevent overloading. However, we are aware that 1MB is not very much when it comes to complex projects or scans. If you require larger uploads, please contact our [Support](mailto:support@trustsource.io).
+
 The following sections will give a short introduction into each block. To test the API, go to [TrustSource App](https://app.trustsource.io) - you may register for free using a git-account - and click the book icon in the upper right corner of the screen. There you will find a SWAGGER allowing you to play around and experience the API functions. 
