@@ -14,8 +14,6 @@ However, if you feel like something is missing or should be integrated better, p
 ## Scope
 This document addresses the use of TrustSource API in general and describes underlying concepts and ideas. It will address the most recent version, which currently is v2. However, the deltas to v1 will be outlined where new functionality appears. Te learn more how to migrate, see the section on **Migrating APIv1 to APIv2**.
 
-
-
 ## Table of Contents
 
 This documentation is structured into six sections with differnt focus:
@@ -31,7 +29,7 @@ This documentation is structured into six sections with differnt focus:
 
 > [!IMPORTANT]
 >
-> **PLEASE NOTE:** APIv1 is meanwhile ***deprecated***. We plan to seize its functionality in ***September 30th, 2024***. Starting from June, users of APIv1 will receive a deprecation notice. If you feel that this timeframe is too tough for you, please reach out to your engagement manager as soon as possible to clarify further proceedings.
+> **PLEASE NOTE:** APIv1 has been shut down ***September 30th, 2024***. Requests will only return 410.
 
 
 
@@ -63,11 +61,7 @@ You may focus on the introductions of chapters 3, 4, 5 and 6. The details you ma
 
 ## Migrating APIv1 to APIv2
 
-The APIv2 has been released during December 2024. We recommend to make use of APIv2 as soon as possible. It is more secure and reliable than the v1. 
-
-Starting **June 2024**, we will publish a deprecation notification as part of all API replies to v1. however, to not impact the usage, information will only be displayed in the repsonse header. Thus it might not be easily detectable for automated integrations. 
-
-By **September 30th, 2024** the API v1 will start returning 410 only. In addition, we will omit the need for the /v2 parameter to reach the api. However, if you use it, you will be able to continue doing so. 
+The APIv2 has been implemented during December 2023. Meanwhile (Oct/24) v1 is not even supported anymore. However, some of our older scanning tools may still want to connect to https://app.trustsource.io/api/v1/... To switch API, you should upgrade to the öatest version or find the config file, where to set the target URL. See the corresponding repo for details. To find the repo use [TrustSource Repo Overview](https://github.com/trustsource) as starting point for your search.
 
 To migrate, you will just need to point your requests to the URL [https://api.trustsource.io/v2/](https://api.trustsource.io/v2/) instead the the former https://app.trustsource.io/api/v1/ base url. ***All functionality is fully backward compatible.*** To learn about new functionality and experiment/play with the functions, visit the API documentation inside [TrustSource Service](https://app.trustsource.io/apidoc-latest).
 
@@ -84,11 +78,6 @@ You should be aware of the different sources you may tap to learn about TrustSou
 - FAQ: the Knowledgebase is available to everyone and contains information on compliance, establishing Compliance processes, setting up an OSPO, integrating different programming languages / CI/CD flows with TrustSource, how to handle use cases within TrustSource, etc.
 - If you are subscribed to TrustSource you also are eligible to may write an email to our support team at [support@trustsource.io](mailto:support@trustsource.io)
 - Direct contact: You will find our contact details, at our website under [www.trustsource.io/contact](!https://www.trustsource.io/contact)
-
-> [!NOTE]
->
-> TrustSource will take care for the maintained scanners to be updated in time. Today (Aug, 2nd), the latest node client already makes use of APIv2. ts-scan will be available somewhere mid August, the maven-plugin will be available by end of August latest. For information of further scanners please refer to the corresponding repo.  
-
 
 
 ## License
