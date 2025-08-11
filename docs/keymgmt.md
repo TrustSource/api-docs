@@ -1,6 +1,7 @@
 # API Key Management
 
-To allow even larger organisations to handle API keys, we invested into a sound API key management. Users with the role **Account Admin**, **Compliance Manager** or **Project Manager** will find the API Key Management under ***> ADMINSITRATION > Scanners & API Keys**. you will hav the choice between  **API Keys** and **Public Release Keys**. 
+To allow even larger organisations to handle API keys, we invested into a sound API key management. Users with the role **Account Admin** will find the API Key Management under ***> ADMINISTRATION > Scanners & API Keys**. You will hav the choice between **API Keys** and **Public Release Keys**. 
+Other users will have to switch to their profile - click on the counterfeit on the upper left corner above your name - and select the **create key** buton in the **Personal access keys** section. **Please note:** keys crete here will only be available to you. If you plan to insert the key in a CI/CD pipepline for longer use, you should request a key managed by someone in an **Account Admin** role.
 
 At TrustSource we distinguish:
 
