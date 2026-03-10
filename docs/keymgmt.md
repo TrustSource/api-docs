@@ -14,7 +14,7 @@ At TrustSource we distinguish:
 
 Please choose **API Keys** for now and you will see a screen like shown in the following screenshot.
 
-![ApiKeyMgmt](/api-docs/assets/ApiKeyMgmt.jpg)
+![ApiKeyMgmt](assets/ApiKeyMgmt.jpg)
 
 If you do not see a list, you might be the first entering this section. Then you will have to add your first key. In this screen you will have all functionality to craete, manage  and delete API keys. 
 
