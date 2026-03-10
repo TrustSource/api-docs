@@ -61,9 +61,10 @@ You may focus on the introductions of chapters 3, 4, 5 and 6. The details you ma
 
 ## Migrating APIv1 to APIv2
 
-The APIv2 has been implemented during December 2023. Meanwhile (Oct/24) v1 is not even supported anymore. However, some of our older scanning tools may still want to connect to https://app.trustsource.io/api/v1/... To switch API, you should upgrade to the öatest version or find the config file, where to set the target URL. See the corresponding repo for details. To find the repo use [TrustSource Repo Overview](https://github.com/trustsource) as starting point for your search.
+The APIv2 has been implemented during December 2023. Meanwhile (after Oct/24) v1 is not even supported anymore. 
+However, some of our older scanning tools may still want to connect to https://app.trustsource.io/api/v1/... To switch API, you should upgrade to the latest version or find the config file, where to set the target URL. See the corresponding repo for details. To find the repo use [TrustSource Repo Overview](https://github.com/trustsource) as starting point for your search.
 
-To migrate, you will just need to point your requests to the URL [https://api.trustsource.io/v2/](https://api.trustsource.io/v2/) instead the the former https://app.trustsource.io/api/v1/ base url. ***All functionality is fully backward compatible.*** To learn about new functionality and experiment/play with the functions, visit the API documentation inside [TrustSource Service](https://app.trustsource.io/apidoc-latest).
+To migrate, you will just need to point your requests to the URL [https://api.trustsource.io/v2/](https://api.trustsource.io/v2/) instead the the former https://app.trustsource.io/api/v1/ base url. ***All functionality is fully backward compatible.*** To learn about new functionality and experiment/play with the functions, visit the API documentation inside the [TrustSource Service](https://app.trustsource.io/apidoc-latest).
 
 
 
